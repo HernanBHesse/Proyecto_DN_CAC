@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description"
+        content="Bienvenidos a Diseño Naval SA, una empresa especializada en el Sector Naval e Industrial.">
+    <meta name="keywords"
+        content="Náutica, Arquitectura naval, yacht design, diseño de embarcaciones, veleros, cruceros, Argentina, yates, vela, motor, funcionalidad, astillero, naval, reparación, transformación, mantenimiento, ingeniero, diseño, draga, remolcador, pontona, barcaza, pesquero, buque, multipropósito, mercante, ferry, patrullero, asistencia, suministro, arrastrero, cerquero, palangrero, atunero, carguero, tanquero, aquicultura, auxiliar, taller mecánico, barco, embarcación, succión">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="../assets/icons/barco-de-papel.svg">
+    <!--Link Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <!-- link de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Estilo CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Nosotros - DN</title>
+</head>
+
+<body>
+    <div class="grilla--nosotros">
+        <!-- Encabezado -->
+        <header class="header--general header--nosotros">
+            <a href="../index.html" class="logo">
+                <img src="../assets/icons/barco-de-papel.svg" alt="Logo de barco" class="logo" title="Inicio">
+            </a>
+            <!-- Menus -->
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu" class="boton"><i class="fas fa-bars"></i></label>
+            <nav class="menu--general">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <!-- Submenu -->
+                    <li class="submenu"><a href="./proyectos.html">Proyectos<i class="fas fa-sort-down"></i></a>
+                        <ul>
+                            <li><a href="proyectos.html#finalizados">Finalizados</a></li>
+                            <li><a href="proyectos.html#enObra">En obra</a></li>
+                            <li><a href="proyectos.html#prototipos">Prototipos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./nosotros.html" class="linkActive">Nosotros</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br />
+        <!-- Contenido principal -->
+        <!-- Sección 1 -->
+        <section class="section1--nosotros">
+            <div class="banner fondo">
+                <h1>Diseño Naval S.A.</h1>
+            </div>
+            <div class="imagenNosotros">
+                <img src="../assets/icons/barco-de-papel.svg" alt="imagenNosotros">
+            </div>
+            <div>
+                <p class="textoNosotros fondo">Nuestro espíritu y la experiencia en el área naval son características
+                    que nos representan. <br> <br>
+                    Todo nuestro personal, así como accionistas y colaboradores comparten el significado del trabajo
+                    como expresión más responsable y creativa al servicio del cliente ofreciendo los mejores resultados.
+                    <br> <br>
+                    Dedicados a lograr la satisfacción del cliente y ganar su fidelidad mediante servicios de calidad
+                    proporcionamos soluciones innovadoras para nuestros clientes. <br> <br>
+                    Contamos con un Departamento Técnico multidisciplinario de profesionales Ingenieros, Arquitectos
+                    Navales, Técnicos, Diseñadores y Proyectistas, que realizan la más adecuada y eficiente gestión en
+                    diseño y desarrollo. <br> <br>
+                    Dotados de la última tecnología y programas informáticos de última generación, otorgamos las
+                    garantías más altas a cada uno de los proyectos que llegan a nuestras manos. <br> <br>
+                    Con un equipo productivo altamente calificado, sumado a la prevención de riesgos laborales y la
+                    gestión medioambiental, damos óptima y rápida respuesta a las necesidades de cada proceso. <br> <br>
+                    Gracias al compromiso personal de cada integrante por cumplir en plazos y calidad, mejorando día a
+                    día, logramos la evolución constante, acompañada de la fidelización de todos nuestros clientes. <br>
+                    <br>
+                    La capacitación constante es un factor que caracteriza y destaca a nuestro Astillero, logrando un
+                    altísimo nivel de servicio así como la mejora constante de los recursos técnicos, logrando una
+                    respuesta rápida y profesional para un mercado cada vez más exigente y competitivo.
+                </p>
+            </div>
+        </section>
+        <!-- Inicio del Footer -->
+        <footer class="footer--general footer--nosotros">
+            <div class="footer__padre">
+                <!-- Datos -->
+                <div class="footer__informacion">
+                    <p>Direccion: Un calle y un numero</p>
+                    <p>Mail: unmail@unmail.com.ar</p>
+                </div>
+                <!-- Redes -->
+                <div class="footer__redes">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://ar.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <!-- Suscripcion -->
+                <div class="footer__suscripcion">
+                    <p>Suscribite para recibir novedades</p>
+                    <form action="#" method="get">
+                        <input type="email" placeholder=" Ingresa tu mail" name="Suscripcion" class="suscripcion--texto"
+                            required>
+                        <input type="submit" for="suscribir" value="Suscribirme" class="suscripcion--boton">
+                    </form>
+                </div>
+            </div>
+            <!-- Boton de Whatsapp -->
+            <div>
+                <a href="https://wa.me/541149463421/?text=Excelente%20trabajo" target="_blank"><i
+                        class="fab fa-whatsapp"></i></a>
+            </div>
+            <!-- Copyright -->
+            <div class="footer__copyright">
+                <p>Copyright</p>
+            </div>
+        </footer>
+    </div>
+    <!-- Link FontAwsome -->
+    <script src="https://kit.fontawesome.com/94f2547df1.js" crossorigin="anonymous"></script>
+    <!-- link js bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+<<<<<<< HEAD
+</html>
+=======
+</html>
+>>>>>>> 03094d930b29763911b69b5fb62595e0c395ee22
